@@ -1,0 +1,45 @@
+cff-version: 1.2.0
+message: "If you use or refer to this work, please cite it as below."
+type: dataset
+title: "GM-Omega-Infinity: Topos-Native Intelligence"
+abstract: "A Sheaf-Theoretic Architecture for Verifiable Machine Intelligence. A monograph in five volumes bound as one: the meta-reasoning kernel of the Grothendieckian Programme, in which reasoning over evidence is native to a Grothendieck topos."
+authors:
+  - family-names: "Liu"
+    given-names: "Vincent"
+    email: "elsevier2012@hotmail.com"
+version: "1.0.0"
+date-released: "2026-10-22"
+doi: "10.5281/zenodo.23538544"
+license: "CC-BY-NC-ND-4.0"
+url: "https://github.com/AlienMuse/topos-native-intelligence"
+keywords:
+  - "topos theory"
+  - "sheaf theory"
+  - "Grothendieck topology"
+  - "cohomology"
+  - "descent"
+  - "higher topos theory"
+  - "machine intelligence"
+  - "AI for mathematics"
+  - "mixture of experts"
+  - "formal verification"
+  - "Grothendieckian Programme"
+  - "meta-reasoning"
+  - "sheaf neural networks"
+  - "reinforcement learning"
+  - "inter-universal Teichmüller theory"
+  - "almost mathematics"
+  - "motives"
+preferred-citation:
+  type: book
+  title: "GM-Omega-Infinity: Topos-Native Intelligence — A Sheaf-Theoretic Architecture for Verifiable Machine Intelligence"
+  authors:
+    - family-names: "Liu"
+      given-names: "Vincent"
+  year: 2026
+  edition: "Research Architecture Edition 1"
+  collection-title: "WiseMotif Monograph of Mathematical Intelligence, Series 02"
+  publisher:
+    name: "Zenodo"
+  doi: "10.5281/zenodo.23538544"
+  url: "https://doi.org/10.5281/zenodo.23538544"
