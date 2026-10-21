@@ -78,14 +78,57 @@ Intelligence》是一部五卷合一的专著（正文为英文），共 4,020 �
 
 ## 五卷
 
-| | 卷 | 部 | 交付内容 |
-|---|---|---|---|
-| **I** | *Diagnosis and the Source Mathematics* | 前言、I–II | 五个结构性缺陷、typed transfer 的规则，以及源层数学——site、层、内部逻辑、∞-拓扑斯、上同调与下降、Deligne 权、almost mathematics、Kan 扩张、和乐、六函子、motive——全部处于定理级别 |
-| **II** | *The Architecture and Its Mixture of Experts* | III–IV | 单一底空间上的九层 L0–L8；Topos-MoE：专家是开子拓扑斯，路由是构造充分覆盖 |
-| **III** | *Learning, Systems, Validation, and Position* | V–X | 被证明保持或破坏结构的目标函数、以下降验证奖励的强化学习、执行与服务、参考实现、检验工具与严谨性台账 |
-| **IV** | *Provenance and Adjudication* | XI | Grothendieck 纲领、点函子、motive 与 inter-universal Teichmüller 理论，逐项裁定可迁移性；不确定性演算；typed transfer 的复合律 |
-| **V** | *Transferable Cores, Their Algorithms, and the Replacement Case* | XII–XIV | 七条谱系——Grothendieck、Deligne、Faltings、Voevodsky、Scholze、Lurie、Mochizuki——提炼为可迁移内核、转化为算法，并集中评估替代问题 |
-| | *Apparatus* | A0–A16 | 记号、证明与扩展证明、术语表、带代码的完整示例、算法汇编、规范伪代码、预注册方案、任务生成器、Lean 4 源码、归属登记表、负面结果、参考文献 |
+每一卷围绕一个问题组织，并以读者可以带走、可以使用的成果收尾。五卷合为一册；下面每张封面把该卷置于 D₆ 拓扑斯蜂巢的中心，
+所印公式即全书封面上该卷格子中的公式。
+
+<table>
+  <tr>
+    <td width="33%" valign="top" align="center">
+      <a href="docs/contents/volume-i.md"><img src="assets/covers/volume-1.jpg" alt="第一卷封面——Diagnosis and the Source Mathematics" width="200"></a><br>
+      <b>I · Diagnosis and the Source Mathematics</b><br>
+      <sub>第一至二部 · 20 章 · 第 1–598 页</sub><br><br>
+      <sub>追问：现有模型的缺陷是否是结构性的，是否存在足够精确、能够指认这些缺陷的数学。交付：诊断、迁移的规则，以及源层数学——site、层、内部逻辑、∞-拓扑斯、上同调与下降、Deligne 权、almost mathematics、Kan 扩张、和乐、六函子、motive——全书所依赖的每条定理都在这里连同其假设一并陈述。</sub><br><br>
+      <a href="docs/contents/volume-i.md">目录</a> · <a href="https://github.com/AlienMuse/topos-native-intelligence/releases/download/v1.0.0/GM-Omega-Infinity-v1.0.0-Complete.pdf">PDF</a>
+    </td>
+    <td width="33%" valign="top" align="center">
+      <a href="docs/contents/volume-ii.md"><img src="assets/covers/volume-2.jpg" alt="第二卷封面——The Architecture and Its Mixture of Experts" width="200"></a><br>
+      <b>II · The Architecture and Its Mixture of Experts</b><br>
+      <sub>第三至四部 · 18 章 · 第 599–1,203 页</sub><br><br>
+      <sub>追问：把这些数学投入其中时，架构是什么样子。交付：单一底空间上的九层 L0–L8 与 Topos-MoE——专家是开子拓扑斯，路由是构造充分覆盖；每个构造都标明等级，每个不变量都写明，每种向标准架构的退化都写出。</sub><br><br>
+      <a href="docs/contents/volume-ii.md">目录</a> · <a href="https://github.com/AlienMuse/topos-native-intelligence/releases/download/v1.0.0/GM-Omega-Infinity-v1.0.0-Complete.pdf">PDF</a>
+    </td>
+    <td width="33%" valign="top" align="center">
+      <a href="docs/contents/volume-iii.md"><img src="assets/covers/volume-3.jpg" alt="第三卷封面——Learning, Systems, Validation, and Position" width="200"></a><br>
+      <b>III · Learning, Systems, Validation, and Position</b><br>
+      <sub>第五至十部 · 22 章 · 第 1,204–1,885 页</sub><br><br>
+      <sub>追问：这样的架构如何训练、运行与检验。交付：附可容许性证明的目标函数、奖励经过验证的强化学习、执行模型、分布式与服务设计、类型化断言记录与参考实现，以及用来检验每个断言的工具、指标与台账。</sub><br><br>
+      <a href="docs/contents/volume-iii.md">目录</a> · <a href="https://github.com/AlienMuse/topos-native-intelligence/releases/download/v1.0.0/GM-Omega-Infinity-v1.0.0-Complete.pdf">PDF</a>
+    </td>
+  </tr>
+  <tr>
+    <td width="33%" valign="top" align="center">
+      <a href="docs/contents/volume-iv.md"><img src="assets/covers/volume-4.jpg" alt="第四卷封面——Provenance and Adjudication" width="200"></a><br>
+      <b>IV · Provenance and Adjudication</b><br>
+      <sub>第十一部 · 17 章 · 第 1,886–2,526 页</sub><br><br>
+      <sub>追问：设计从何而来，它有权保留来源中的哪些东西。交付：对 Grothendieck 纲领、点函子、motive 与 motivic 基本群、inter-universal Teichmüller 理论的逐项裁定，以及不确定性演算和 typed transfer 的复合律。</sub><br><br>
+      <a href="docs/contents/volume-iv.md">目录</a> · <a href="https://github.com/AlienMuse/topos-native-intelligence/releases/download/v1.0.0/GM-Omega-Infinity-v1.0.0-Complete.pdf">PDF</a>
+    </td>
+    <td width="33%" valign="top" align="center">
+      <a href="docs/contents/volume-v.md"><img src="assets/covers/volume-5.jpg" alt="第五卷封面——Transferable Cores, Their Algorithms, and the Replacement Case" width="200"></a><br>
+      <b>V · Transferable Cores, Their Algorithms, and the Replacement Case</b><br>
+      <sub>第十二至十四部 · 25 章 · 第 2,527–3,218 页</sub><br><br>
+      <sub>追问：去掉各自的术语重新陈述之后，每个来源还剩下什么，剩下的是否足以在其上构建。交付：七个可迁移内核——Grothendieck、Deligne、Faltings、Voevodsky、Scholze、Lurie、Mochizuki——及其算法、使它们协同工作的统一栈、机器检验内核，以及关于"已证明什么、未证明什么"的替代评估。</sub><br><br>
+      <a href="docs/contents/volume-v.md">目录</a> · <a href="https://github.com/AlienMuse/topos-native-intelligence/releases/download/v1.0.0/GM-Omega-Infinity-v1.0.0-Complete.pdf">PDF</a>
+    </td>
+    <td width="33%" valign="top" align="center">
+      <a href="https://github.com/AlienMuse/topos-native-intelligence/releases/download/v1.0.0/GM-Omega-Infinity-v1.0.0-Complete.pdf"><img src="assets/covers/complete.jpg" alt="全书封面——五卷与一个子对象分类子的 D6 拓扑斯蜂巢" width="200"></a><br>
+      <b>全书与附录</b><br>
+      <sub>第一至五卷 · 附录 A0–A16 · 4,020 页</sub><br><br>
+      <sub>五卷合为一册，环绕子对象分类子 Ω。附录（第 3,219–3,911 页）是服务全书的工具：记号、证明与扩展证明、术语表、带代码的完整示例、算法汇编、规范伪代码、预注册方案、任务生成器、Lean 4 源码、归属登记表、负面结果、参考文献。</sub><br><br>
+      <a href="https://github.com/AlienMuse/topos-native-intelligence/releases/download/v1.0.0/GM-Omega-Infinity-v1.0.0-Complete.pdf">PDF</a> · <a href="docs/contents/apparatus.md">附录目录</a> · 105.6 MB
+    </td>
+  </tr>
+</table>
 
 ## 主要结果（节选）
 
@@ -100,7 +143,7 @@ Intelligence》是一部五卷合一的专著（正文为英文），共 4,020 �
 ## 本书是什么，不是什么
 
 **本书是**一部基础理论著作：机器智能的元推理内核，规定得足够精确，可以被实现、检验，若有错误也可以被驳倒。
-每个断言都在提出之处标明等级——**T** 定理、**M** 可测量、**D** 设计决策、**X** 隐喻——每个尚未完成的义务都标为未完成。
+每个断言都在提出之处标明等级——**T** 定理、**M** 可测量、**D** 设计准则、**X** 隐喻——每个尚未完成的义务都标为未完成。
 
 **本书不是** Transformer 的替代品：书中证明了若干局部特化，它们的假设各不相同，没有任何定理把它们组合成单一前向映射。
 **本书不报告任何实验：**书中没有训练好的模型，所有实证陈述都是等待执行的预注册方案。inter-universal Teichmüller 理论

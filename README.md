@@ -85,14 +85,58 @@ applies that turn to reasoning itself. Three consequences organise the whole arc
 
 ## The five volumes
 
-| | Volume | Parts | What it delivers |
-|---|---|---|---|
-| **I** | *Diagnosis and the Source Mathematics* | Preface, I–II | five structural deficits, the discipline of typed transfer, and the source layer — sites, sheaves, internal logic, ∞-topoi, cohomology and descent, Deligne weights, almost mathematics, Kan extensions, holonomy, the six operations, motives — all at the grade of theorem |
-| **II** | *The Architecture and Its Mixture of Experts* | III–IV | nine layers L0–L8 over a single base; Topos-MoE, in which an expert is an open sub-topos and routing is the construction of a sufficient cover |
-| **III** | *Learning, Systems, Validation, and Position* | V–X | objectives proved to preserve or destroy the structure, reinforcement learning with reward verified by descent, execution and serving, a reference implementation, instruments and the rigour ledger |
-| **IV** | *Provenance and Adjudication* | XI | the Grothendieck programme, the functor of points, motives and inter-universal Teichmüller theory, adjudicated import by import; the indeterminacy calculus; the composition law for typed transfers |
-| **V** | *Transferable Cores, Their Algorithms, and the Replacement Case* | XII–XIV | seven lineages — Grothendieck, Deligne, Faltings, Voevodsky, Scholze, Lurie, Mochizuki — reduced to transferable cores, turned into algorithms, and assessed in one place |
-| | *Apparatus* | A0–A16 | notation, collected and expanded proofs, glossary, worked example with code, algorithm compendium, normative pseudocode, pre-registered protocol, task generators, Lean 4 sources, attribution register, negative results, bibliography |
+Each volume is organised around one question and ends with something a reader can take away and use. The five
+volumes are bound as one book. Each cover below places its volume at the centre of the D₆ topos honeycomb, with the
+formula its cell carries on the front cover of the book.
+
+<table>
+  <tr>
+    <td width="33%" valign="top" align="center">
+      <a href="docs/contents/volume-i.md"><img src="assets/covers/volume-1.jpg" alt="Volume I cover — Diagnosis and the Source Mathematics" width="200"></a><br>
+      <b>I · Diagnosis and the Source Mathematics</b><br>
+      <sub>Parts I–II · 20 chapters · pp. 1–598</sub><br><br>
+      <sub>Asks whether the deficits of present models are structural, and whether there is mathematics exact enough to name them. Delivers the diagnosis, the discipline of transfer, and a source layer — sites, sheaves, internal logic, ∞-topoi, cohomology and descent, Deligne weights, almost mathematics, Kan extensions, holonomy, the six operations, motives — in which every theorem the book relies on is stated with its hypotheses.</sub><br><br>
+      <a href="docs/contents/volume-i.md">Contents</a> · <a href="https://github.com/AlienMuse/topos-native-intelligence/releases/download/v1.0.0/GM-Omega-Infinity-v1.0.0-Complete.pdf">PDF</a>
+    </td>
+    <td width="33%" valign="top" align="center">
+      <a href="docs/contents/volume-ii.md"><img src="assets/covers/volume-2.jpg" alt="Volume II cover — The Architecture and Its Mixture of Experts" width="200"></a><br>
+      <b>II · The Architecture and Its Mixture of Experts</b><br>
+      <sub>Parts III–IV · 18 chapters · pp. 599–1,203</sub><br><br>
+      <sub>Asks what an architecture looks like when that mathematics is spent on it. Delivers nine layers L0–L8 over a single base and Topos-MoE, in which an expert is an open sub-topos and routing is the construction of a sufficient cover — every construction graded, every invariant stated, every degeneration to the standard stack written down.</sub><br><br>
+      <a href="docs/contents/volume-ii.md">Contents</a> · <a href="https://github.com/AlienMuse/topos-native-intelligence/releases/download/v1.0.0/GM-Omega-Infinity-v1.0.0-Complete.pdf">PDF</a>
+    </td>
+    <td width="33%" valign="top" align="center">
+      <a href="docs/contents/volume-iii.md"><img src="assets/covers/volume-3.jpg" alt="Volume III cover — Learning, Systems, Validation, and Position" width="200"></a><br>
+      <b>III · Learning, Systems, Validation, and Position</b><br>
+      <sub>Parts V–X · 22 chapters · pp. 1,204–1,885</sub><br><br>
+      <sub>Asks how such an architecture is trained, run and checked. Delivers objectives with proofs of admissibility, reinforcement learning with verified reward, an execution model, a distributed and serving design, typed claim records and a reference implementation, and the instruments, metrics and ledger by which every claim can be tested.</sub><br><br>
+      <a href="docs/contents/volume-iii.md">Contents</a> · <a href="https://github.com/AlienMuse/topos-native-intelligence/releases/download/v1.0.0/GM-Omega-Infinity-v1.0.0-Complete.pdf">PDF</a>
+    </td>
+  </tr>
+  <tr>
+    <td width="33%" valign="top" align="center">
+      <a href="docs/contents/volume-iv.md"><img src="assets/covers/volume-4.jpg" alt="Volume IV cover — Provenance and Adjudication" width="200"></a><br>
+      <b>IV · Provenance and Adjudication</b><br>
+      <sub>Part XI · 17 chapters · pp. 1,886–2,526</sub><br><br>
+      <sub>Asks where the design comes from and what of its sources it is entitled to keep. Delivers an adjudication, import by import, of Grothendieck's programme, the functor of points, motives and the motivic fundamental group, and inter-universal Teichmüller theory, with the indeterminacy calculus and the law by which typed transfers compose.</sub><br><br>
+      <a href="docs/contents/volume-iv.md">Contents</a> · <a href="https://github.com/AlienMuse/topos-native-intelligence/releases/download/v1.0.0/GM-Omega-Infinity-v1.0.0-Complete.pdf">PDF</a>
+    </td>
+    <td width="33%" valign="top" align="center">
+      <a href="docs/contents/volume-v.md"><img src="assets/covers/volume-5.jpg" alt="Volume V cover — Transferable Cores, Their Algorithms, and the Replacement Case" width="200"></a><br>
+      <b>V · Transferable Cores, Their Algorithms, and the Replacement Case</b><br>
+      <sub>Parts XII–XIV · 25 chapters · pp. 2,527–3,218</sub><br><br>
+      <sub>Asks what survives when each source is restated without its vocabulary. Delivers seven transferable cores — Grothendieck, Deligne, Faltings, Voevodsky, Scholze, Lurie, Mochizuki — their algorithms, a unified stack in which they interoperate, a machine-checking kernel, and a replacement assessment of what has been shown and what has not.</sub><br><br>
+      <a href="docs/contents/volume-v.md">Contents</a> · <a href="https://github.com/AlienMuse/topos-native-intelligence/releases/download/v1.0.0/GM-Omega-Infinity-v1.0.0-Complete.pdf">PDF</a>
+    </td>
+    <td width="33%" valign="top" align="center">
+      <a href="https://github.com/AlienMuse/topos-native-intelligence/releases/download/v1.0.0/GM-Omega-Infinity-v1.0.0-Complete.pdf"><img src="assets/covers/complete.jpg" alt="Front cover of the complete monograph — the D6 topos honeycomb of five volumes and one classifier" width="200"></a><br>
+      <b>The complete monograph and its Apparatus</b><br>
+      <sub>Volumes I–V · Appendices A0–A16 · 4,020 pages</sub><br><br>
+      <sub>The five volumes bound as one, around the subobject classifier Ω. The Apparatus (pp. 3,219–3,911) is equipment for the whole work: notation, collected and expanded proofs, glossary, a worked example with code, algorithm compendium, normative pseudocode, pre-registered protocol, task generators, Lean 4 sources, attribution register, negative results, bibliography.</sub><br><br>
+      <a href="https://github.com/AlienMuse/topos-native-intelligence/releases/download/v1.0.0/GM-Omega-Infinity-v1.0.0-Complete.pdf">PDF</a> · <a href="docs/contents/apparatus.md">Apparatus</a> · 105.6 MB
+    </td>
+  </tr>
+</table>
 
 ## Selected results
 
@@ -113,7 +157,7 @@ applies that turn to reasoning itself. Three consequences organise the whole arc
 
 **It is** a work of foundations: the meta-reasoning kernel of a machine intelligence, specified precisely enough to
 be implemented, tested and, if wrong, refuted. Every claim carries its grade where it is made — **T** theorem,
-**M** measurable, **D** design decision, **X** metaphor — and every unfinished obligation is printed as open.
+**M** measurable, **D** design criterion, **X** metaphor — and every unfinished obligation is printed as open.
 
 **It is not** a replacement for the Transformer: several local specialisations are proved, their hypotheses differ,
 and no theorem composes them into a single forward map. **It reports no experiment:** there is no trained model in
