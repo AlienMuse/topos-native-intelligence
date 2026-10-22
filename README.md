@@ -248,6 +248,7 @@ acknowledged by name in the next edition (see [ERRATA.md](ERRATA.md)).
 
 <p align="center"><sub>
   <a href="https://wisemotif.ai">WiseMotif Monograph of Mathematical Intelligence</a> · Series 02 · Mathematics and Artificial Intelligence<br>
-  Series 01: <a href="https://github.com/AlienMuse/grothendieckian-machine"><i>GAI-MUA: The Grothendieckian Machine</i></a><br>
+  Series 01: <a href="https://github.com/AlienMuse/grothendieckian-machine"><i>GAI-MUA: The Grothendieckian Machine</i></a> ·
+  Series 03: <a href="https://github.com/AlienMuse/arithmetic-spectral-descent"><i>Arithmetic Spectral Descent</i></a> (<a href="https://doi.org/10.5281/zenodo.23564898">doi:10.5281/zenodo.23564898</a>)<br>
   © 2026 Vincent Liu
 </sub></p>
